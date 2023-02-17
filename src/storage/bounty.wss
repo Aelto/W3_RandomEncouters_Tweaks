@@ -1,5 +1,5 @@
 
-// in this class you will find all persistent data about the bounties the mod
+// In this class you will find all persistent data about the bounties the mod
 // stores in the user save files.
 class RER_BountyStorage extends RER_BaseStorage {
   var whiteorchard_level: int;

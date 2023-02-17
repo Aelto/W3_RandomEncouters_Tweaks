@@ -1,5 +1,5 @@
 
-// a collection of all storage classes the mod uses
+// A collection of all storage classes the mod uses.
 class RER_StorageCollection {
   var general: RER_GeneralStorage;
   var ecosystem: RER_EcosystemStorage;
@@ -8,7 +8,7 @@ class RER_StorageCollection {
   var tracker: RER_TrackerStorage;
 }
 
-// an helper function to get the full storage collection
+// A helper function to get the full storage collection.
 function RER_loadStorageCollection(master: CRandomEncounters) {
   if (!master.storages) {
     NLOG("RER_loadStorageCollection() - Instantiating new storage collection");

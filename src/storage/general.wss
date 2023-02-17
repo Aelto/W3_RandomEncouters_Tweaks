@@ -1,6 +1,6 @@
 
 /**
- * A general storage for generic data
+ * A general storage for generic data.
  */
 class RER_GeneralStorage extends RER_BaseStorage {
     var playthrough_seed: int;
